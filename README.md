@@ -42,4 +42,17 @@
 - Bootstrap 5
 
 ## 📂 Структура проекта
+/project-root/
+│
+├── app.py # Основной файл приложения Flask
+├── db.py # Модели и инициализация базы данных
+├── users.py # Фабрики пользователей
+├── order.py # Логика заказов и декораторы
+├── reports.py # Builder + Abstract Factory для отчётов
+├── notification.py # Реализация Observer
+├── payment.py # Адаптеры под Stripe и PayPal
+├── session.py # Singleton менеджер сессий
+├── templates/ # HTML-шаблоны Jinja2
+├── static/ # Стили, скрипты, графики
+└── crm.db # SQLite база данных
 
